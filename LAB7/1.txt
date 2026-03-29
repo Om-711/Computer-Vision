@@ -1,0 +1,18 @@
+CV Lab Assignment:
+Write a Python program to perform point detection using a 3×3 mask considering diagonal neighbors and analyze the result.
+Write a Python program to perform point detection using a 3×3 mask considering horizontal lines and analyze the result.
+Write a Python program to perform point detection using a 3×3 mask considering vertical lines and analyze the result.
+Write a Python program using the Sobel operator.
+Write a Python program using the Prewitt operator.
+Write a Python program to detect edges using the Canny edge detector.
+Write a Python program to use a Gabor filter to detect textures.
+Write a Python program to apply a sharpening filter to an image.
+Write a Python program to introduce Gaussian noise and then apply a blur filter, followed by edge detection filters (Sobel and Prewitt).
+Write a Python program to count the number of edge pixels in an image.
+Write a Python program to apply a Laplacian filter after Gaussian smoothing.
+Write a Python program to display only the edges of an image.
+Write a Python program to generate bounding boxes over an image.
+
+
+Condition:
+You may use the OpenCV library, but filter computations must be implemented using loops.
