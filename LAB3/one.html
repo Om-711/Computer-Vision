@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>Hospital Patient Form</title>
+        <style>
+                body {
+                        font-family: Arial, sans-serif;
+                        background-color: #f0f0f0;
+                }
+
+                .container {
+                        width: 800px;
+                        margin: 40px auto;
+                        background-color: #fff;
+                        padding: 20px;
+                        border: 1px solid #ddd;
+                        border-radius: 10px;
+                        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+                }
+
+                .label {
+                        display: block;
+                        margin-bottom: 10px;
+                }
+
+                .input-field {
+                        margin-bottom: 20px;
+                }
+
+                .input-field input[type="text"],
+                .input-field input[type="email"],
+                .input-field input[type="tel"] {
+                        width: 100%;
+                        padding: 10px;
+                        border: 1px solid #ccc;
+                        border-radius: 5px;
+                        margin-bottom: 10px;
+                }
+
+                .input-field select {
+                        width: 100%;
+                        padding: 10px;
+                        border: 1px solid #ccc;
+                        border-radius: 5px;
+                        margin-bottom: 10px;
+                }
+
+                .button {
+                        background-color: #4CAF50;
+                        color: #fff;
+                        padding: 10px 20px;
+                        border: none;
+                        border-radius: 5px;
+                        cursor: pointer;
+                }
+
+                .button:hover {
+                        background-color: #3e8e41;
+                }
+        </style>
+</head>
+<body>
+        <div class="container">
+                <h2>Hospital Patient Form</h2>
+                <form>
+                        <div class="input-field">
+                                <label for="patient-name">Patient Name:</label>
+                                <input type="text" id="patient-name" name="patient-name" required>
+                        </div>
+                        <div class="input-field">
+                                <label for="patient-email">Patient Email:</label>
+                                <input type="email" id="patient-email" name="patient-email" required>
+                        </div>
+                        <div class="input-field">
+                                <label for="patient-phone">Patient Phone:</label>
+                                <input type="tel" id="patient-phone" name="patient-phone" required>
+                        </div>
+                        <div class="input-field">
+                                <label for="patient-address">Patient Address:</label>
+                                <textarea id="patient-address" name="patient-address" required></textarea>
+                        </div>
+                        <div class="input-field">
+                                <label for="patient-medical-condition">Medical Condition:</label>
+                                <select id="patient-medical-condition" name="patient-medical-condition">
+                                        <option value="">Select</option>
+                                        <option value="Diabetes">Diabetes</option>
+                                        <option value="Hypertension">Hypertension</option>
+                                        <option value="Kidney Disease">Kidney Disease</option>
+                                </select>
+                        </div>
+                        <div class="input-field">
+                                <label for="patient-medications">Medications:</label>
+                                <textarea id="patient-medications" name="patient-medications" required></textarea>
+                        </div>
+                        <button class="button" type="submit">Submit</button>
+                </form>
+        </div>
+</body>
+</html>
